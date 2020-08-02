@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184F724C24D0116900481472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F724B24D0116900481472 /* AppDelegate.m */; };
+		184F724F24D0116900481472 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F724E24D0116900481472 /* SceneDelegate.m */; };
+		184F725224D0116900481472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F725124D0116900481472 /* ViewController.m */; };
+		184F725524D0116900481472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F725324D0116900481472 /* Main.storyboard */; };
+		184F725724D0116F00481472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F725624D0116F00481472 /* Assets.xcassets */; };
+		184F725A24D0116F00481472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F725824D0116F00481472 /* LaunchScreen.storyboard */; };
+		184F725D24D0116F00481472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F725C24D0116F00481472 /* main.m */; };
+		184F726724D0117000481472 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F726624D0117000481472 /* ______Tests.m */; };
+		184F727224D0117000481472 /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F727124D0117000481472 /* ______UITests.m */; };
+		184F728124D0270A00481472 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F728024D0270A00481472 /* StartViewController.m */; };
+		184F728324D0277000481472 /* 开机界面.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184F728224D0276F00481472 /* 开机界面.jpg */; };
+		184F728624D0282600481472 /* LandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F728524D0282600481472 /* LandViewController.m */; };
+		184F728824D02C1A00481472 /* 登陆.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 184F728724D02C1A00481472 /* 登陆.jpeg */; };
+		184F728B24D068E300481472 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F728A24D068E200481472 /* RegisterViewController.m */; };
+		184F729624D1216A00481472 /* 密码.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F729424D1216900481472 /* 密码.png */; };
+		184F729724D1216A00481472 /* 账户.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F729524D1216900481472 /* 账户.png */; };
+		184F729A24D15A8F00481472 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F729924D15A8F00481472 /* HomeViewController.m */; };
+		184F729C24D15C4600481472 /* 主页背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F729B24D15C4600481472 /* 主页背景.png */; };
+		184F729F24D1A47200481472 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F729E24D1A47200481472 /* AddViewController.m */; };
+		184F72A824D1A54600481472 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72A724D1A54600481472 /* FindViewController.m */; };
+		184F72AB24D1A6D200481472 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72AA24D1A6D200481472 /* HomeTableViewCell.m */; };
+		184F72AE24D1BA8500481472 /* student.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72AD24D1BA8500481472 /* student.m */; };
+		184F72B024D2457E00481472 /* 增加背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184F72AF24D2457D00481472 /* 增加背景.jpg */; };
+		184F72B224D2694E00481472 /* 班级.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F72B124D2694D00481472 /* 班级.png */; };
+		184F72B424D26ADC00481472 /* 成绩.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F72B324D26ADB00481472 /* 成绩.png */; };
+		184F72B624D2A4C000481472 /* 删除背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184F72B524D2A4BF00481472 /* 删除背景.jpg */; };
+		184F72B824D2C63400481472 /* 修改背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 184F72B724D2C63400481472 /* 修改背景.jpg */; };
+		184F72BB24D2D23200481472 /* ModifyTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72BA24D2D23200481472 /* ModifyTwoViewController.m */; };
+		184F72BD24D2EBFF00481472 /* DeleteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72BC24D2EBFF00481472 /* DeleteViewController.m */; };
+		184F72C324D2ED7900481472 /* ModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72C224D2ED7900481472 /* ModifyViewController.m */; };
+		184F72C724D315F400481472 /* 查找背景.png in Resources */ = {isa = PBXBuildFile; fileRef = 184F72C624D315F400481472 /* 查找背景.png */; };
+		184F72CA24D39FE100481472 /* FindTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184F72C924D39FE000481472 /* FindTwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184F726324D0116F00481472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F723F24D0116900481472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F724624D0116900481472;
+			remoteInfo = "学生管理系统";
+		};
+		184F726E24D0117000481472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F723F24D0116900481472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F724624D0116900481472;
+			remoteInfo = "学生管理系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184F724724D0116900481472 /* 学生管理系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "学生管理系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F724A24D0116900481472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184F724B24D0116900481472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184F724D24D0116900481472 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		184F724E24D0116900481472 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		184F725024D0116900481472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184F725124D0116900481472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184F725424D0116900481472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184F725624D0116F00481472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184F725924D0116F00481472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184F725B24D0116F00481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F725C24D0116F00481472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184F726224D0116F00481472 /* 学生管理系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学生管理系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F726624D0117000481472 /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		184F726824D0117000481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F726D24D0117000481472 /* 学生管理系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学生管理系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F727124D0117000481472 /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		184F727324D0117000481472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F727F24D0270A00481472 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		184F728024D0270A00481472 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		184F728224D0276F00481472 /* 开机界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "开机界面.jpg"; sourceTree = "<group>"; };
+		184F728424D0282600481472 /* LandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LandViewController.h; sourceTree = "<group>"; };
+		184F728524D0282600481472 /* LandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LandViewController.m; sourceTree = "<group>"; };
+		184F728724D02C1A00481472 /* 登陆.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "登陆.jpeg"; sourceTree = "<group>"; };
+		184F728924D068E200481472 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		184F728A24D068E200481472 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		184F729424D1216900481472 /* 密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码.png"; sourceTree = "<group>"; };
+		184F729524D1216900481472 /* 账户.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "账户.png"; sourceTree = "<group>"; };
+		184F729824D15A8F00481472 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		184F729924D15A8F00481472 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		184F729B24D15C4600481472 /* 主页背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页背景.png"; sourceTree = "<group>"; };
+		184F729D24D1A47200481472 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		184F729E24D1A47200481472 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		184F72A024D1A49700481472 /* DeleteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteViewController.h; sourceTree = "<group>"; };
+		184F72A624D1A54600481472 /* FindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		184F72A724D1A54600481472 /* FindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		184F72A924D1A6D200481472 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		184F72AA24D1A6D200481472 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		184F72AC24D1BA8500481472 /* student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = student.h; sourceTree = "<group>"; };
+		184F72AD24D1BA8500481472 /* student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = student.m; sourceTree = "<group>"; };
+		184F72AF24D2457D00481472 /* 增加背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "增加背景.jpg"; sourceTree = "<group>"; };
+		184F72B124D2694D00481472 /* 班级.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "班级.png"; sourceTree = "<group>"; };
+		184F72B324D26ADB00481472 /* 成绩.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "成绩.png"; sourceTree = "<group>"; };
+		184F72B524D2A4BF00481472 /* 删除背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "删除背景.jpg"; sourceTree = "<group>"; };
+		184F72B724D2C63400481472 /* 修改背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "修改背景.jpg"; sourceTree = "<group>"; };
+		184F72B924D2D23200481472 /* ModifyTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModifyTwoViewController.h; sourceTree = "<group>"; };
+		184F72BA24D2D23200481472 /* ModifyTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModifyTwoViewController.m; sourceTree = "<group>"; };
+		184F72BC24D2EBFF00481472 /* DeleteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteViewController.m; sourceTree = "<group>"; };
+		184F72C124D2ED7900481472 /* ModifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyViewController.h; sourceTree = "<group>"; };
+		184F72C224D2ED7900481472 /* ModifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyViewController.m; sourceTree = "<group>"; };
+		184F72C624D315F400481472 /* 查找背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "查找背景.png"; sourceTree = "<group>"; };
+		184F72C824D39FE000481472 /* FindTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindTwoViewController.h; sourceTree = "<group>"; };
+		184F72C924D39FE000481472 /* FindTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184F724424D0116900481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F725F24D0116F00481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F726A24D0117000481472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184F723E24D0116900481472 = {
+			isa = PBXGroup;
+			children = (
+				184F728224D0276F00481472 /* 开机界面.jpg */,
+				184F728724D02C1A00481472 /* 登陆.jpeg */,
+				184F729524D1216900481472 /* 账户.png */,
+				184F729424D1216900481472 /* 密码.png */,
+				184F729B24D15C4600481472 /* 主页背景.png */,
+				184F72AF24D2457D00481472 /* 增加背景.jpg */,
+				184F72B324D26ADB00481472 /* 成绩.png */,
+				184F72B124D2694D00481472 /* 班级.png */,
+				184F72B524D2A4BF00481472 /* 删除背景.jpg */,
+				184F72B724D2C63400481472 /* 修改背景.jpg */,
+				184F72C624D315F400481472 /* 查找背景.png */,
+				184F724924D0116900481472 /* 学生管理系统 */,
+				184F726524D0116F00481472 /* 学生管理系统Tests */,
+				184F727024D0117000481472 /* 学生管理系统UITests */,
+				184F724824D0116900481472 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184F724824D0116900481472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184F724724D0116900481472 /* 学生管理系统.app */,
+				184F726224D0116F00481472 /* 学生管理系统Tests.xctest */,
+				184F726D24D0117000481472 /* 学生管理系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184F724924D0116900481472 /* 学生管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				184F724A24D0116900481472 /* AppDelegate.h */,
+				184F724B24D0116900481472 /* AppDelegate.m */,
+				184F724D24D0116900481472 /* SceneDelegate.h */,
+				184F724E24D0116900481472 /* SceneDelegate.m */,
+				184F725024D0116900481472 /* ViewController.h */,
+				184F725124D0116900481472 /* ViewController.m */,
+				184F727F24D0270A00481472 /* StartViewController.h */,
+				184F728024D0270A00481472 /* StartViewController.m */,
+				184F728424D0282600481472 /* LandViewController.h */,
+				184F728524D0282600481472 /* LandViewController.m */,
+				184F728924D068E200481472 /* RegisterViewController.h */,
+				184F728A24D068E200481472 /* RegisterViewController.m */,
+				184F729824D15A8F00481472 /* HomeViewController.h */,
+				184F729924D15A8F00481472 /* HomeViewController.m */,
+				184F72A924D1A6D200481472 /* HomeTableViewCell.h */,
+				184F72AA24D1A6D200481472 /* HomeTableViewCell.m */,
+				184F729D24D1A47200481472 /* AddViewController.h */,
+				184F729E24D1A47200481472 /* AddViewController.m */,
+				184F72A024D1A49700481472 /* DeleteViewController.h */,
+				184F72BC24D2EBFF00481472 /* DeleteViewController.m */,
+				184F72C124D2ED7900481472 /* ModifyViewController.h */,
+				184F72C224D2ED7900481472 /* ModifyViewController.m */,
+				184F72B924D2D23200481472 /* ModifyTwoViewController.h */,
+				184F72BA24D2D23200481472 /* ModifyTwoViewController.m */,
+				184F72A624D1A54600481472 /* FindViewController.h */,
+				184F72A724D1A54600481472 /* FindViewController.m */,
+				184F72C824D39FE000481472 /* FindTwoViewController.h */,
+				184F72C924D39FE000481472 /* FindTwoViewController.m */,
+				184F72AC24D1BA8500481472 /* student.h */,
+				184F72AD24D1BA8500481472 /* student.m */,
+				184F725324D0116900481472 /* Main.storyboard */,
+				184F725624D0116F00481472 /* Assets.xcassets */,
+				184F725824D0116F00481472 /* LaunchScreen.storyboard */,
+				184F725B24D0116F00481472 /* Info.plist */,
+				184F725C24D0116F00481472 /* main.m */,
+			);
+			path = "学生管理系统";
+			sourceTree = "<group>";
+		};
+		184F726524D0116F00481472 /* 学生管理系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				184F726624D0117000481472 /* ______Tests.m */,
+				184F726824D0117000481472 /* Info.plist */,
+			);
+			path = "学生管理系统Tests";
+			sourceTree = "<group>";
+		};
+		184F727024D0117000481472 /* 学生管理系统UITests */ = {
+			isa = PBXGroup;
+			children = (
+				184F727124D0117000481472 /* ______UITests.m */,
+				184F727324D0117000481472 /* Info.plist */,
+			);
+			path = "学生管理系统UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184F724624D0116900481472 /* 学生管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F727624D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统" */;
+			buildPhases = (
+				184F724324D0116900481472 /* Sources */,
+				184F724424D0116900481472 /* Frameworks */,
+				184F724524D0116900481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "学生管理系统";
+			productName = "学生管理系统";
+			productReference = 184F724724D0116900481472 /* 学生管理系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184F726124D0116F00481472 /* 学生管理系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F727924D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统Tests" */;
+			buildPhases = (
+				184F725E24D0116F00481472 /* Sources */,
+				184F725F24D0116F00481472 /* Frameworks */,
+				184F726024D0116F00481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F726424D0116F00481472 /* PBXTargetDependency */,
+			);
+			name = "学生管理系统Tests";
+			productName = "学生管理系统Tests";
+			productReference = 184F726224D0116F00481472 /* 学生管理系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184F726C24D0117000481472 /* 学生管理系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F727C24D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统UITests" */;
+			buildPhases = (
+				184F726924D0117000481472 /* Sources */,
+				184F726A24D0117000481472 /* Frameworks */,
+				184F726B24D0117000481472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F726F24D0117000481472 /* PBXTargetDependency */,
+			);
+			name = "学生管理系统UITests";
+			productName = "学生管理系统UITests";
+			productReference = 184F726D24D0117000481472 /* 学生管理系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184F723F24D0116900481472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "无";
+				TargetAttributes = {
+					184F724624D0116900481472 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					184F726124D0116F00481472 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 184F724624D0116900481472;
+					};
+					184F726C24D0117000481472 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 184F724624D0116900481472;
+					};
+				};
+			};
+			buildConfigurationList = 184F724224D0116900481472 /* Build configuration list for PBXProject "学生管理系统" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184F723E24D0116900481472;
+			productRefGroup = 184F724824D0116900481472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184F724624D0116900481472 /* 学生管理系统 */,
+				184F726124D0116F00481472 /* 学生管理系统Tests */,
+				184F726C24D0117000481472 /* 学生管理系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184F724524D0116900481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F72B424D26ADC00481472 /* 成绩.png in Resources */,
+				184F72B824D2C63400481472 /* 修改背景.jpg in Resources */,
+				184F725A24D0116F00481472 /* LaunchScreen.storyboard in Resources */,
+				184F728324D0277000481472 /* 开机界面.jpg in Resources */,
+				184F725724D0116F00481472 /* Assets.xcassets in Resources */,
+				184F72B024D2457E00481472 /* 增加背景.jpg in Resources */,
+				184F729724D1216A00481472 /* 账户.png in Resources */,
+				184F72B624D2A4C000481472 /* 删除背景.jpg in Resources */,
+				184F72B224D2694E00481472 /* 班级.png in Resources */,
+				184F72C724D315F400481472 /* 查找背景.png in Resources */,
+				184F729C24D15C4600481472 /* 主页背景.png in Resources */,
+				184F728824D02C1A00481472 /* 登陆.jpeg in Resources */,
+				184F725524D0116900481472 /* Main.storyboard in Resources */,
+				184F729624D1216A00481472 /* 密码.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F726024D0116F00481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F726B24D0117000481472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184F724324D0116900481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F725224D0116900481472 /* ViewController.m in Sources */,
+				184F72BB24D2D23200481472 /* ModifyTwoViewController.m in Sources */,
+				184F72AE24D1BA8500481472 /* student.m in Sources */,
+				184F724C24D0116900481472 /* AppDelegate.m in Sources */,
+				184F728124D0270A00481472 /* StartViewController.m in Sources */,
+				184F72A824D1A54600481472 /* FindViewController.m in Sources */,
+				184F72C324D2ED7900481472 /* ModifyViewController.m in Sources */,
+				184F725D24D0116F00481472 /* main.m in Sources */,
+				184F728B24D068E300481472 /* RegisterViewController.m in Sources */,
+				184F724F24D0116900481472 /* SceneDelegate.m in Sources */,
+				184F728624D0282600481472 /* LandViewController.m in Sources */,
+				184F72AB24D1A6D200481472 /* HomeTableViewCell.m in Sources */,
+				184F72CA24D39FE100481472 /* FindTwoViewController.m in Sources */,
+				184F729A24D15A8F00481472 /* HomeViewController.m in Sources */,
+				184F729F24D1A47200481472 /* AddViewController.m in Sources */,
+				184F72BD24D2EBFF00481472 /* DeleteViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F725E24D0116F00481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F726724D0117000481472 /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F726924D0117000481472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F727224D0117000481472 /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184F726424D0116F00481472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F724624D0116900481472 /* 学生管理系统 */;
+			targetProxy = 184F726324D0116F00481472 /* PBXContainerItemProxy */;
+		};
+		184F726F24D0117000481472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F724624D0116900481472 /* 学生管理系统 */;
+			targetProxy = 184F726E24D0117000481472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184F725324D0116900481472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F725424D0116900481472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184F725824D0116F00481472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F725924D0116F00481472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184F727424D0117000481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		184F727524D0117000481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184F727724D0117000481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184F727824D0117000481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184F727A24D0117000481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学生管理系统.app/学生管理系统";
+			};
+			name = Debug;
+		};
+		184F727B24D0117000481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学生管理系统.app/学生管理系统";
+			};
+			name = Release;
+		};
+		184F727D24D0117000481472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "学生管理系统";
+			};
+			name = Debug;
+		};
+		184F727E24D0117000481472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "--.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "学生管理系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184F724224D0116900481472 /* Build configuration list for PBXProject "学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F727424D0117000481472 /* Debug */,
+				184F727524D0117000481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F727624D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F727724D0117000481472 /* Debug */,
+				184F727824D0117000481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F727924D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F727A24D0117000481472 /* Debug */,
+				184F727B24D0117000481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F727C24D0117000481472 /* Build configuration list for PBXNativeTarget "学生管理系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F727D24D0117000481472 /* Debug */,
+				184F727E24D0117000481472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184F723F24D0116900481472 /* Project object */;
+}
